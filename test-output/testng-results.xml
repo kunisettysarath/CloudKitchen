@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69166" started-at="2020-05-22T09:05:11Z" finished-at="2020-05-22T09:06:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69166" started-at="2020-05-22T09:05:11Z" finished-at="2020-05-22T09:06:20Z">
+      <class name="functionaltests.AddToCart">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:functionaltests.AddToCart@2b2948e2]" name="beforeSuit" is-config="true" duration-ms="219" started-at="2020-05-22T09:05:10Z" finished-at="2020-05-22T09:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:functionaltests.AddToCart@2b2948e2]" name="beforeTest" is-config="true" duration-ms="18756" started-at="2020-05-22T09:05:11Z" finished-at="2020-05-22T09:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="launchAndSelectMamacita()[pri:0, instance:functionaltests.AddToCart@2b2948e2]" name="launchAndSelectMamacita" duration-ms="49602" started-at="2020-05-22T09:05:29Z" finished-at="2020-05-22T09:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndSelectMamacita -->
+        <test-method status="PASS" signature="testListeners(org.testng.ITestResult)[pri:0, instance:functionaltests.AddToCart@2b2948e2]" name="testListeners" is-config="true" duration-ms="784" started-at="2020-05-22T09:06:19Z" finished-at="2020-05-22T09:06:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchAndSelectMamacita status=SUCCESS method=AddToCart.launchAndSelectMamacita()[pri:0, instance:functionaltests.AddToCart@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListeners -->
+        <test-method status="PASS" signature="aSuit()[pri:0, instance:functionaltests.AddToCart@2b2948e2]" name="aSuit" is-config="true" duration-ms="672" started-at="2020-05-22T09:06:20Z" finished-at="2020-05-22T09:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSuit -->
+      </class> <!-- functionaltests.AddToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
